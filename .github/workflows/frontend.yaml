@@ -2,7 +2,7 @@ name: static_website_crc
 
 on:
     push:
-        branches: [ master ]
+        branches: [ main ]
 
 jobs:
   build:
