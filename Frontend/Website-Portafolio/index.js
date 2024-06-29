@@ -50,8 +50,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 //API creation
 
-const localFunctionApi = 'http://localhost:7071/api/httptrigercosmodb';
-const liveFunctionApi = 'https://functionappcosmodb.azurewebsites.net/api/httptrigercosmodb';
+//const localFunctionApi = 'http://localhost:7071/api/httptrigercosmodb';
+const liveFunctionApi = 'https://functioncrcfinal.azurewebsites.net/api/httptrigercosmodb';
 
 const getVisitCount = () => {
   let count = 10;
